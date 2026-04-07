@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+async function ai_edge_gallery_get_result(data) {
+  const { query } = JSON.parse(data);
+
+  const response = await fetch('https://api.duckduckgo.com/?q=' + encodeURIComponent(query) + '&format=json');
+  const result = await response.json();
+
+  return JSON.stringify({
+    answer: result.AbstractText || 'No results found.',
+    source: 'DuckDuckGo'
+  });
+}
+
+window.ai_edge_gallery_get_result = ai_edge_gallery_get_result;
+</script>
+</body>
+</html>
