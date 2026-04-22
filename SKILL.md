@@ -1,5 +1,5 @@
 ---
-name: edge-gallery-duckduckgo
+name: edge-gallery-ddg
 description: A skill that allows users to search via DuckDuckGo
 metadata:
 homepage: https://kostanye.github.io/edge-gallery-ddg
