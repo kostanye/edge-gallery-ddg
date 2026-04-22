@@ -1,7 +1,11 @@
 ---
 name: edge-gallery-duckduckgo
-description: A skill that allows users to search via DuckDuckGo and retrieve relevant information. Single keyword queries are recommended for optimal results.
+description: A skill that allows users to search via DuckDuckGo
+metadata:
+  homepage: https://kostanye.github.io/edge-gallery-ddg
 ---
+
+
 
 # Edge Gallery DuckDuckGo Skill
 
